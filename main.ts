@@ -1,4 +1,9 @@
-Kitronik_Move_Motor.turnRadius(Kitronik_Move_Motor.TurnRadii.Wide)
-basic.forever(function () {
+input.onButtonPressed(Button.A, function () {
 	
+})
+input.onButtonPressed(Button.B, function () {
+	
+})
+basic.forever(function () {
+    Kitronik_Move_Motor.move(Kitronik_Move_Motor.DriveDirections.Forward, 100)
 })
